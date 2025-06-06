@@ -1,0 +1,33 @@
+#quote-list{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+}
+
+.quote{
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    width: 400px;
+}
+
+.politic{
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.sports{
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+.philosophic{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.dailyQuoteContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
